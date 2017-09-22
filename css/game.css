@@ -1,0 +1,34 @@
+body {
+	background-color: black;
+}
+
+#gameBoard  {
+		width: 100%;
+		height: 38em;
+    background-image: url("../images/giphy (2).gif");
+    background-size: cover;
+ }
+
+ .bike {
+ 	height: 4em;
+ 	width: 10%;
+ 	display: block;
+ 	border-radius: 20px;
+	
+ }
+
+#blueBike{
+ 	border: 5px solid #01F5F5;
+ 	border-radius: 20px;
+ 	position: relative;
+ 	top: 30%;
+ 	background-color: #01F5F5;
+ }
+
+ #orangeBike {
+	border: 5px solid #F18323;
+	position: relative;
+	top: 50%;
+	background-color: #F18323;
+ }
+
