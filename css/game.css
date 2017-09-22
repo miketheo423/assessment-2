@@ -1,14 +1,17 @@
 body {
 	background-color: black;
+	background-image: url("../images/grid.jpg");
+	background-size: cover;
 }
 
 /* Gameboard with gif as background */
 
 #gameBoard  {
 	width: 100%;
-	height: 38em;
+	height: 30em;
   background-image: url("../images/giphy (2).gif");
   background-size: cover;
+  margin-top: 10%;
  }
 
 /* Bike/Player Section */

@@ -15,18 +15,23 @@ $('body').keyup(function (e) {
 	if (e.keyCode == 65) {
 		blueMove += 5;
 		$('#blueBike').css("padding-left", blueMove + "%");
-		console.log(blueValue);
+		console.log(blueMove);
 	}
+	if(blueMove === 95) {
+		alert("Blue Wins!");
+		location.reload();
+}
 });
 
 $('body').keyup(function (e) {
 	if (e.keyCode == 76) {
 		orangeMove += 5;
 		$('#orangeBike').css("padding-left", orangeMove + "%");
+	if(orangeMove === 95) {
+		alert("Orange Wins!");
+		location.reload();
 	}
+}
 });
 //When the image reaches a certain point, the game will display an alert that the player has won and the game will resest 
-if($('#blueBike').css('padding-left')=== "100%"){
-	console.log("We have a winner");
-}
 });
