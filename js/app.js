@@ -1,7 +1,5 @@
 $(function(){
 	console.log('Up and Running');
-
-
 //Define the two images as variables
 //Select the images using JQuery
 var blueBike = $('#blueBike');
