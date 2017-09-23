@@ -64,11 +64,15 @@ function resetGame() {
 function winAll() {
 	if(playerOneWin === 3) {
 		alert("Player One is Victorious!");
-		location.reload();
+		playerOneWin = 0;
+		playerTwoWin = 0;
 	} else if (playerTwoWin === 3) {
 		alert("Player Two is Victorious!");
-		location.reload();
+		playerOneWin = 0;
+		playerTwoWin = 0;
 	}
+	$('#playerOneScore').text(playerOneWin);
+	$('#playerTwoScore').text(playerTwoWin);
 }
  
 });
