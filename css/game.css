@@ -37,3 +37,20 @@ body {
 	top: 50%;
 	background-color: #F18323;
  }
+
+ /*Media Query for Tablet Version*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	
+	#gameBoard {
+		margin-top: 15%;
+	}
+
+  .bike {
+    width: 12%; 
+  }
+
+ }

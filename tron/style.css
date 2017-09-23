@@ -46,3 +46,16 @@ h1 {
 	color: white;
 	border: 5px solid white;
 }
+
+/*Media Query for Tablet Version*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+ h1 {
+	font-size: 87px;
+  margin: 50px;
+ }	
+}
