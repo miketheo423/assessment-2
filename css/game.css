@@ -16,23 +16,32 @@ body {
 
 /*Player Score Section*/
 
+@font-face {
+	font-family: 'TRON';
+	font-style: normal;
+	font-weight: normal;
+	src: local('TRON'), url('TRON.woff') format('woff');
+}
+
 h1 {
-	font-size: 100px;
+	font-size: 80px;
 	display: inline-block;
-	margin: 0% 2% 2% 2%;
+	margin: 2% 2% 0% 2%;
+	text-decoration: underline;
+	font-family: 'Russo One', sans-serif;
  }
 
 .score {
-	display: inline;	
+	display: inline;
 }
 
 #playerOne {
 	color: #01F5F5;
+	margin-left: 10%;
 }
 
 #playerTwo {
 	color: #F18323;
-	margin-left: 10%;
 }
 
 /* Bike/Player Section */
@@ -68,7 +77,7 @@ h1 {
   and (-webkit-min-device-pixel-ratio: 1) {
 
 	h1 {
-		font-size: 70px;
+    font-size: 50px;
 		margin: 2% 2% 0% 2%;
 	}
 
@@ -78,6 +87,11 @@ h1 {
 
   .bike {
     width: 12%; 
+  }
+
+  #playerOne {
+  	margin-left: 16%;
+
   }
 
  }
